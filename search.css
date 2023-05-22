@@ -1,0 +1,90 @@
+body {
+    background-image: url("black.jpg");
+    background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+   }
+   div.logo{
+    font size: 40px;
+    font width: bold;
+    letter-spacing: 1.5px;
+}
+ 
+  .table-bordered {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.button3{
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:#e673b6;
+    text-align:center;
+    transition: all 0.15s;
+}
+
+.table-bordered thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.table-bordered th,
+.table-bordered td {
+    align-self: center;
+    padding: 20px 35px;
+}
+.table-bordered tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-bordered tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table-bordered tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.table-bordered tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.table-bordered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-header {
+    text-align-last: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+  }
+  .inputgroup_3 {
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .inputgroup_3{
+    width: 200pxpx;
+    height:30px;
+    position: fixed;
+    background-color: blue;
+    top: 30%;
+    left: 45%;
+    margin-top: -100px;
+    margin-left: -100px;
+    background-color: #000000;
+  }
+  
